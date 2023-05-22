@@ -1,18 +1,37 @@
 
 
+body {
+    background-color: black;
+}
+
+
 #paragrafo_1 {
-    color: black;
+    color: white;
     text-align: center;
 }
 
 #butao_1 {
-    transition: 0;
-    background-color: aqua;
+    background-color: red;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    padding: 10px 10px;
+    box-shadow: 0;
+    display: inline-block;
+    opacity: 0.9;
 }
 
 #butao_1:hover {
-    transition-delay: 0.30s;
-    background-color: blue;
+    opacity: 1;
+}
+
+#butao_1:active {
+    transform: translateY(4px);
+}
+
+#butao_1:hover {
+    opacity: 1;
 }
 
 #div1 {
