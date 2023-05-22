@@ -1,0 +1,20 @@
+
+
+#paragrafo_1 {
+    color: black;
+    text-align: center;
+}
+
+#butao_1 {
+    transition: 0;
+    background-color: aqua;
+}
+
+#butao_1:hover {
+    transition-delay: 0.30s;
+    background-color: blue;
+}
+
+#div1 {
+    text-align: center;
+}
