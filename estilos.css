@@ -4,6 +4,49 @@ body {
     background-color: black;
 }
 
+.logo {
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+}
+
+.barra_navegacao {
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barra_navegacao ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.barra_navegacao ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.barra_navegacao ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.barra_navegacao ul li:hover::after {
+    width: 100%;
+}
+
 
 #paragrafo_1 {
     color: white;
@@ -11,85 +54,6 @@ body {
 }
 
 #Capitulo {
-    text-align: center;
+    text-align: left;
     color: white;
-}
-
-.butoes {
-    font-size: 10px;
-    text-align: right;
-    margin-right: 50px;
-}
-
-#butao_1 {
-    border: none;
-    background: none;
-    color: white;
-    margin-right: 50px;
-}
-
-#butao_1:hover {
-    text-decoration: underline;
-}
-
-#butao_1:active {
-   transform: translate(-4px, 4px);
-}
-
-#butao_2 {
-    border: none;
-    background: none;
-    color: white;
-    margin-right: 50px;
-}
-
-#butao_2:hover {
-    text-decoration: underline;
-}
-
-#butao_2:active {
-   transform: translate(-4px, 4px);
-}
-
-#butao_3 {
-    border: none;
-    background: none;
-    color: white;
-    margin-right: 50px;
-}
-
-#butao_3:hover {
-    text-decoration: underline;
-}
-
-#butao_3:active {
-   transform: translate(-4px, 4px);
-}
-
-#butao_4 {
-    border: none;
-    background: none;
-    color: white;
-}
-
-#butao_4:hover {
-    text-decoration: underline;
-}
-
-#butao_4:active {
-   transform: translate(-4px, 4px);
-}
-
-#butao_5 {
-    border: none;
-    background: none;
-    color: white;
-}
-
-#butao_5:hover {
-    text-decoration: underline;
-}
-
-#butao_5:active {
-   transform: translate(-4px, 4px);
 }

@@ -1,4 +1,4 @@
-# Pagina-Multimedia
+# Landing Page Multimédia
 
 ## Projeto realizado por (Grupo - 7):
 
