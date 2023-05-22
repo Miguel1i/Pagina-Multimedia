@@ -10,30 +10,86 @@ body {
     text-align: center;
 }
 
-#butao_1 {
-    background-color: red;
-    font-size: 24px;
+#Capitulo {
+    text-align: center;
     color: white;
-    border-radius: 10px;
-    border-color: white;
-    padding: 10px 10px;
-    box-shadow: 0;
-    display: inline-block;
-    opacity: 0.9;
+}
+
+.butoes {
+    font-size: 10px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+#butao_1 {
+    border: none;
+    background: none;
+    color: white;
+    margin-right: 50px;
 }
 
 #butao_1:hover {
-    opacity: 1;
+    text-decoration: underline;
 }
 
 #butao_1:active {
-    transform: translateY(4px);
+   transform: translate(-4px, 4px);
 }
 
-#butao_1:hover {
-    opacity: 1;
+#butao_2 {
+    border: none;
+    background: none;
+    color: white;
+    margin-right: 50px;
 }
 
-#div1 {
-    text-align: center;
+#butao_2:hover {
+    text-decoration: underline;
+}
+
+#butao_2:active {
+   transform: translate(-4px, 4px);
+}
+
+#butao_3 {
+    border: none;
+    background: none;
+    color: white;
+    margin-right: 50px;
+}
+
+#butao_3:hover {
+    text-decoration: underline;
+}
+
+#butao_3:active {
+   transform: translate(-4px, 4px);
+}
+
+#butao_4 {
+    border: none;
+    background: none;
+    color: white;
+}
+
+#butao_4:hover {
+    text-decoration: underline;
+}
+
+#butao_4:active {
+   transform: translate(-4px, 4px);
+}
+
+#butao_5 {
+    border: none;
+    background: none;
+    color: white;
+}
+
+#butao_5:hover {
+    text-decoration: underline;
+}
+
+#butao_5:active {
+   transform: translate(-4px, 4px);
 }
