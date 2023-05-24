@@ -46,38 +46,34 @@ body {
   width: 100%;
 }
 
-#paragrafo_1 {
-  color: white;
-  text-align: center;
-}
-
-.middle {
+.end {
+  margin-top: 150px;
+  margin-left: 300px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 50px;
+  justify-content: space-between;
 }
 
-.Informacao {
-  color: white;
-  text-align: center;
-  margin-right: 100px;
-}
-
-.gif {
-  width: 20%;
-  height: 20%;
+.end p {
+  margin-right: 800px;
 }
 
 .end ul li {
   display: inline;
   list-style: none;
   align-items: center;
-  justify-content: center;
 }
 
 .end ul li img {
   margin-right: 30px;
-  width: 2%;
-  height: 2%;
+  width: 5%;
+}
+
+#copyright {
+  color: white;
+}
+
+#Capitulo {
+  color: white;
+  text-align: center;
 }

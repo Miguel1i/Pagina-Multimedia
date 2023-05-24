@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  width: 20%;
+  height: 20%;
+  cursor: pointer;
+}
+
+.barra_navegacao {
+  width: 80%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.barra_navegacao ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.barra_navegacao ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.barra_navegacao ul li::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background-color: rgba(164, 22, 26, 1);
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.barra_navegacao ul li:hover::after {
+  width: 100%;
+}
+
+#paragrafo_1 {
+  color: white;
+  text-align: center;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Informacao {
+  color: white;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.gif {
+  width: 20%;
+  height: 20%;
+}
+
+.end {
+  margin-top: 150px;
+  margin-left: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.end p {
+  margin-right: 800px;
+}
+
+.end ul li {
+  display: inline;
+  list-style: none;
+  align-items: center;
+}
+
+.end ul li img {
+  margin-right: 30px;
+  width: 5%;
+}
+
+#copyright {
+  color: white;
+}
