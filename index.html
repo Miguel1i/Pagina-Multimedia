@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <title>Arcadia</title>
-        <meta charset="UTF-8">
-        <link rel="icon" href="./images/pagina_icon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="estilos.css">
-        <script src="./scripts.js"></script>
-    </head>
+  <head>
+    <title>Arcadia</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./images/pagina_icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="./scripts.js"></script>
+  </head>
 
-    <body>
-        <!-- Secção do inicio -->
-        <div class="barra_navegacao"> 
-            <img src="./images/logo.png" class="logo" onclick="location.href='index.html'">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="#" onclick="playAudio()">About</a></li>
-                <li><a href="#" onclick="playAudio()">Sign Up</a></li>
-                <li><a href="#" onclick="playAudio()">Login</a></li>
-            </ul>
-        </div>
+  <body>
+    <!-- Secção do inicio -->
+    <div class="barra_navegacao">
+      <img
+        src="./images/logo.png"
+        class="logo"
+        onclick="location.href='index.html'"
+      />
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="#" onclick="playAudio()">About</a></li>
+        <li><a href="#" onclick="playAudio()">Sign Up</a></li>
+        <li><a href="#" onclick="playAudio()">Login</a></li>
+      </ul>
+    </div>
 
+    <!-- Secção do meio-->
+    <div class="middle">
+      <div class="Informacao">
+        <h1 id="Capitulo">Arcadia LAN Party</h1>
+        <p id="Informacao">Junta-te a nós</p>
+        <button type="button" onclick="playAudio()">Participate</button>
+      </div>
+      <img src="./images/giphy.gif" class="gif" />
+    </div>
 
-        <!-- Secção do meio-->
-        <section>
-
-            <p id="Main">
-                <h1 id="Capitulo">Arcadia LAN Party</h1>
-                <p>Junta-te a nós</p>
-            </p>
-
-        </section>
-        
-        <!-- Fim da página-->
-        <footer>
-
-        </footer>
-    </body>
-
+    <!-- Fim da página-->
+    <div class="end">
+      <ul>
+        <li><img src="images/instagram.png" /></li>
+        <li><img src="images/facebook.png" /></li>
+        <li><img src="images/twitter.png" /></li>
+      </ul>
+    </div>
+  </body>
 </html>
