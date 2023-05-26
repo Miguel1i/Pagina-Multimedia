@@ -3,27 +3,31 @@
   <head>
     <title>Arcadia</title>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,device-height" initial-scale="1.0"/>
     <link rel="icon" href="./images/pagina_icon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="indexstyle.css" />
-    <script src="./scripts.js"></script>
+    <script src="./scripts.js"></script>  
   </head>
 
   <body>
     <!-- Secção do inicio -->
-    <div class="barra_navegacao">
+    <nav class="barra_navegacao">
       <img
-        src="./images/logo.png"
+        srcset="./images/logo.png, ./images/logo2x.png"
         class="logo"
         onclick="location.href='index.html'"
+        alt="Logo"
       />
       <ul>
-        <li><a href="">Home</a></li>
+        <li><a href="" class="ative">Home</a></li>
         <li><a href="#" onclick="location.href='about.html'">About</a></li>
         <li><a href="#" onclick="playAudio()">Sign Up</a></li>
         <li><a href="#" onclick="playAudio()">Login</a></li>
       </ul>
-    </div>
-
+    </nav>
+     
+    
     <!-- Secção do meio-->
     <div class="middle">
       <div class="Informacao">
@@ -34,13 +38,21 @@
           e momentos épicos. Traga seu PC, laptop ou console e venha se divertir <br>
           conosco!
         </p>
-        <button type="button" onclick="playAudio()">Participate</button>
+        <div class="info">
+          <img src="./images/location.svg" class="location" alt="Location">
+          <p>Universidade dos Açores</p>
+          <img src="./images/calendar.svg" class="calendar" alt="Calendário">
+          <p>7 - 9 Julho</p>
+          
+        </div>
+        <button type="button" id="participar" onclick="playAudio()"><span id="texto_butao">Participar</span></button>
       </div>
       <img src="./images/giphy.gif" class="gif" />
     </div>
 
     <!-- Fim da página-->
-    <div class="end">
+    <footer>
+      <div class="end">
       <p id="copyright">&copyCopyright</p>
       <ul>
         <li><img src="images/instagram.png" /></li>
@@ -48,5 +60,8 @@
         <li><img src="images/twitter.png" /></li>
       </ul>
     </div>
+    </footer>
+
+    
   </body>
 </html>
