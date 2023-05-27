@@ -69,27 +69,30 @@ body {
   height: 20%;
 }
 
-.end {
-  margin-top: 80px;
-  margin-left: 220px;
+.footer {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  padding: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.end p {
-  margin-right: 800px;
+.footer p {
+  margin-right: 850px;
 }
 
-.end ul li {
+.footer ul li {
+  list-style: none;
   display: inline;
   list-style: none;
   align-items: center;
+  margin: 0 20px;
 }
 
-.end ul li img {
-  margin-right: 40px;
-  width: 5%;
+.footer ul li img {
+  width: 8%;
 }
 
 #copyright {
@@ -110,12 +113,14 @@ body {
 }
 
 #participar {
+  margin-top: 20px;
   position: relative;
   padding: 10px 20px;
   background-color: transparent;
   border: 2px solid white;
   border-radius: 15px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 #texto_butao {

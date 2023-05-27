@@ -3,8 +3,14 @@
   <head>
     <title>Arcadia</title>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,device-height"
+      initial-scale="1.0"
+    />
     <link rel="icon" href="./images/pagina_icon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="aboutstyle.css" />
+    <link rel="stylesheet" href="styles/about.css" />
     <script src="./scripts.js"></script>
   </head>
 
@@ -18,25 +24,52 @@
       />
       <ul>
         <li><a href="#" onclick="location.href='index.html'">Home</a></li>
-        <li><a href="" class="ative"> About</a></li>
-        <li><a href="#" onclick="playAudio()">Sign Up</a></li>
-        <li><a href="#" onclick="playAudio()">Login</a></li>
+        <li><a href="#" class="ative">Sobre</a></li>
+        <li><a href="#" onclick="location.href='faq.html'">FAQ</a></li>
+        <li><a href="#" onclick="location.href='contactos.html'">Contactos</a></li>
       </ul>
     </div>
 
     <!-- Secção do meio-->
-    <div class="middle">
+    <section class="middle">
+      <h1 id="ABOUT">SOBRE</h1>
+      <p>A Arcadia é uma empresa inovadora e apaixonada por jogos que se dedica a proporcionar as melhores experiências em lan parties. <br>
+        Nossa missão é criar um espaço onde os jogadores possam se reunir, compartilhar sua paixão por jogos e desfrutar de uma experiência de jogo única. <br>
+        Temos uma equipe dedicada que organiza torneios regulares e eventos especiais, onde você pode competir contra outros jogadores e mostrar suas habilidades.</p>
+
       <h1 id="Capitulo">STAFF</h1>
-    </div>
+      <div class="imagens">
+        
+        <div class="borda">
+          <img src="./images/henrique.svg" alt="Foto do henrique">
+      
+        </div>
+        <div class="borda">
+          <img src="./images/manuel.svg" alt="Foto do manuel">
+          
+        </div>
+        <div class="borda">
+          <img src="./images/joao.svg" alt="Foto do joão">
+          
+        </div>
+        <div class="borda">
+          <img src="./images/miguel.svg" alt="Foto do miguel">
+          
+        </div>
+      </div>
+      
+      </div>
+      </ul>
+    </section>
 
     <!-- Fim da página-->
-    <div class="end">
+    <footer class="footer">
       <p id="copyright">&copyCopyright</p>
       <ul>
         <li><img src="images/instagram.png" /></li>
         <li><img src="images/facebook.png" /></li>
         <li><img src="images/twitter.png" /></li>
       </ul>
-    </div>
+    </footer>
   </body>
 </html>
