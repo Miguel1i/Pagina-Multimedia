@@ -49,8 +49,6 @@ body {
 .footer {
   width: 80%;
   margin: auto;
-  margin-top: 100px;
-  padding: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,6 +56,7 @@ body {
 
 .footer p {
   margin-right: 850px;
+  color: white;
 }
 
 .footer ul li {
@@ -78,4 +77,55 @@ body {
 
 .ative {
   font-weight: bold;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacte-nos {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.contacte-nos h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contacte-nos form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacte-nos label {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.contacte-nos textarea {
+  resize: none;
+}
+
+.contacte-nos input,
+.contacte-nos textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contacte-nos input[type="submit"] {
+  background-color: rgba(164, 22, 26, 1);
+  color: white;
+  cursor: pointer;
+}
+
+.contacte-nos input[type="submit"]:hover {
+  background-color: rgba(164, 22, 26, 0.8);
 }

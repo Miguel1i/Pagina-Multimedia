@@ -10,7 +10,7 @@
       initial-scale="1.0"
     />
     <link rel="icon" href="./images/pagina_icon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="styles/contactos.css" />
+    <link rel="stylesheet" href="styles/contacto.css" />
     <script src="./scripts.js"></script>
   </head>
 
@@ -27,23 +27,30 @@
         <li><a href="#" onclick="location.href='index.html'">Home</a></li>
         <li><a href="#" onclick="location.href='about.html'">SOBRE </a></li>
         <li><a href="#" onclick="location.href='faq.html'">FAQ</a></li>
-        <li><a href="#" class="ative">CONTACTOS</a></li>
+        <li><a href="#" class="ative">CONTACTO</a></li>
       </ul>
     </nav>
 
     <!-- Secção do meio-->
-    <div class="middle"></div>
+    <div class="middle">
+      <!-- Contacte-nos formulário, e-mail=#, Nome, dúvida, cor branca -->
+      <div class="contacte-nos">
+        <h1>Contacte-nos</h1>
+        <form action="mailto:#" method="post" enctype="text/plain">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="duvida">Dúvida:</label>
+          <textarea id="duvida" name="duvida" required></textarea>
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+    </div>
 
     <!-- Fim da página-->
-    <footer>
-      <div class="footer">
-        <p id="copyright">&copyCopyright</p>
-        <ul>
-          <li><img src="images/instagram.png" /></li>
-          <li><img src="images/facebook.png" /></li>
-          <li><img src="images/twitter.png" /></li>
-        </ul>
-      </div>
+    <footer class="footer">
+      <p id="copyright">© 2023 Arcadia, Inc. All rights reserved.</p>
     </footer>
   </body>
 </html>

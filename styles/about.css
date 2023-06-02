@@ -51,7 +51,7 @@ body {
   color: white;
 }
 
-#Capitulo {
+#capitulo {
   margin-top: 50px;
 }
 
@@ -108,31 +108,7 @@ body {
 }
 
 .footer {
-  width: 80%;
-  margin: auto;
-  margin-top: 140px;
-  padding: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.footer p {
-  margin-right: 850px;
-}
-
-.footer ul li {
-  list-style: none;
-  display: inline;
-  list-style: none;
-  align-items: center;
-  margin: 0 20px;
-}
-
-.footer ul li img {
-  width: 8%;
-}
-
-#copyright {
+  margin-left: 200px;
+  margin-top: 150px;
   color: white;
 }
