@@ -1,14 +1,17 @@
+/* Definição das propriedades de estilo para o corpo da página */
 body {
   background-color: black;
   font-family: "Segoe UI", sans-serif;
 }
 
+/* Definição das propriedades de estilo para o logotipo */
 .logo {
   width: 20%;
   height: 20%;
   cursor: pointer;
 }
 
+/* Definição das propriedades de estilo para a barra de navegação */
 .barra_navegacao {
   width: 80%;
   margin: auto;
@@ -18,6 +21,7 @@ body {
   justify-content: space-between;
 }
 
+/* Definição das propriedades de estilo para os itens da lista na barra de navegação */
 .barra_navegacao ul li {
   list-style: none;
   display: inline-block;
@@ -25,12 +29,14 @@ body {
   position: relative;
 }
 
+/* Definição das propriedades de estilo para os links na barra de navegação */
 .barra_navegacao ul li a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
 }
 
+/* Definição das propriedades de estilo para o efeito de destaque nos itens da barra de navegação */
 .barra_navegacao ul li::after {
   content: "";
   height: 3px;
@@ -42,28 +48,34 @@ body {
   transition: 0.5s;
 }
 
+/* Definição das propriedades de estilo para o efeito de destaque nos itens da barra de navegação ao passar o mouse */
 .barra_navegacao ul li:hover::after {
   width: 100%;
 }
 
+/* Definição das propriedades de estilo para a seção do meio */
 .middle {
   text-align: center;
   color: white;
 }
 
+/* Definição das propriedades de estilo para o título da seção do meio */
 #capitulo {
   margin-top: 50px;
 }
 
+/* Definição das propriedades de estilo para o item ativo na barra de navegação */
 .ative {
   font-weight: bold;
 }
 
+/* Definição das propriedades de estilo para as imagens na seção do meio */
 .imagens {
   display: flex;
   justify-content: center;
 }
 
+/* Definição das propriedades de estilo para as bordas das imagens */
 .borda {
   position: relative;
   overflow: hidden;
@@ -73,10 +85,12 @@ body {
   margin-right: 60px;
 }
 
+/* Definição das propriedades de estilo para a última borda sem margem à direita */
 .borda:last-child {
   margin-right: 0;
 }
 
+/* Definição das propriedades de estilo para a animação das bordas */
 .borda::before {
   content: "";
   position: absolute;
@@ -91,6 +105,7 @@ body {
   border-radius: 50%;
 }
 
+/* Definição das propriedades de estilo para as imagens dentro das bordas */
 .borda img {
   width: 100%;
   height: 100%;
@@ -98,6 +113,7 @@ body {
   border-radius: inherit;
 }
 
+/* Definição da animação das bordas */
 @keyframes animacao-borda {
   0% {
     transform: rotate(0deg);
@@ -107,6 +123,7 @@ body {
   }
 }
 
+/* Definição das propriedades de estilo para o rodapé */
 .footer {
   margin-left: 200px;
   margin-top: 150px;
